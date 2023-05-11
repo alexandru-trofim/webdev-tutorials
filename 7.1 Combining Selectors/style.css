@@ -1,0 +1,19 @@
+/* Write your code here: */
+
+h1, h2 {
+    color: purple;
+}
+
+div > p {
+    color: firebrick;
+}
+
+/*will apply to all the children of .box that are li on all levels*/
+.box li {
+    color: blue;
+}
+
+/*chaining - applies when all selectors are true*/
+li.done {
+    color: rebeccapurple;
+}
